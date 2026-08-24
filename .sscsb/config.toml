@@ -8,7 +8,7 @@
 
 [general]
 # Branches where human-only signing and merge policy are enforced.
-protected_branches = ["main", "master"]
+protected_branches = ["main"]
 # fail_open = true would let hooks pass when scanners are missing. Keep false.
 fail_open = false
 github_repo = "p4gs/homebrew-p4gs"
