@@ -1,24 +1,24 @@
 class Sscsb < Formula
   desc "Opinionated, modular software supply chain security for small teams"
   homepage "https://github.com/p4gs/sscs-bootstrapper"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.0/sscsb-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "95f0b158909afc79887d7554888c09b4ef60c82423f083fb7aadffe496038ce0"
+      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.1/sscsb-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "501d1ec2eeeb7b123049be933c1014221938222c3f956eeddc1e331d65dd0c4a"
     end
     on_intel do
-      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.0/sscsb-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1b6171f8c43dce7b046254f96ba91f2813bd5e2136604d260fa2523612fd2f7b"
+      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.1/sscsb-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "10d709507c4645183b65549ae79831602b8089cf384f9fb3f34caa5d6b7991e1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.0/sscsb-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3a9371834ec3e798ea6d12b5e839babac1292df9a66757b0ddcd2288a69f1bea"
+      url "https://github.com/p4gs/sscs-bootstrapper/releases/download/v0.2.1/sscsb-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b90d036c295eb85e11d85d52601558aa79a85478b1a245bd63a3af9993285d06"
     end
   end
 
